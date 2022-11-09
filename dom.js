@@ -1,18 +1,11 @@
-const bccol = document.
-getElementById('bccol');
-bccol.addEventListener('click',() =>{
-
-    color=prompt("Enter Color");
-    document.body.style.backgroundColor=color;
-})
-
-const chtext = document.
-getElementById('chtext');
-chtext.addEventListener('click',() => {
-
-    tc=prompt("Enter Color");
-    document.body.style.color=tc;
-})
+function bgr(){
+  var b=prompt("Enter Color");
+  document.body.style.backgroundColor=b;
+}
+function tc(){
+  var tc = prompt("Enter Color");
+  document.getElementById("text1").setAttribute("style","color: "+tc);
+}
 
   function hapusGambar(id) {
     const hapus = document.getElementById(id);
